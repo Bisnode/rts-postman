@@ -1,0 +1,232 @@
+{
+	"info": {
+		"_postman_id": "460b951d-43f4-4b47-a85d-7dbfb6a272b1",
+		"name": "Sandbox Real Time Screening",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21455582"
+	},
+	"item": [
+		{
+			"name": "/company/identify/screening",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n   \"name\":\"test_company_1\",\r\n   \"regNo\":\"5561234567\",\r\n   \"nationality\":\"SE\",\r\n   \"reference\":\"test_customer_1\"\r\n}"
+				},
+				"url": {
+					"raw": "{{api_url}}/aml-real-time-screening/api/aml/kyc/company/identify/screening",
+					"host": [
+						"{{api_url}}"
+					],
+					"path": [
+						"aml-real-time-screening",
+						"api",
+						"aml",
+						"kyc",
+						"company",
+						"identify",
+						"screening"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/company/screening",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \"reference\": \"sanctions\", \"name\": \"SMAPLEBANK\" }"
+				},
+				"url": {
+					"raw": "{{api_url}}/aml-real-time-screening/api/aml/kyc/company/screening",
+					"host": [
+						"{{api_url}}"
+					],
+					"path": [
+						"aml-real-time-screening",
+						"api",
+						"aml",
+						"kyc",
+						"company",
+						"screening"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/person/identify/screening",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\t\r\n\t\"name\": \"Testperson\",\r\n\t\"natIdNo\": \"SE200303035943\",\r\n\t\"reference\": \"emil_testing_02-bisnode\"\r\n}"
+				},
+				"url": {
+					"raw": "{{api_url}}/aml-real-time-screening/api/aml/kyc/person/identify/screening",
+					"host": [
+						"{{api_url}}"
+					],
+					"path": [
+						"aml-real-time-screening",
+						"api",
+						"aml",
+						"kyc",
+						"person",
+						"identify",
+						"screening"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/person/screening",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"firstName\": \"Donald\",\r\n\t\"lastName\": \"Kowalsky\",\r\n\t\"reference\": \"emil_testing_01\",\r\n\t\"provider\": \"TRAPETS\"\r\n}"
+				},
+				"url": {
+					"raw": "{{api_url}}/aml-real-time-screening/api/aml/kyc/person/screening",
+					"host": [
+						"{{api_url}}"
+					],
+					"path": [
+						"aml-real-time-screening",
+						"api",
+						"aml",
+						"kyc",
+						"person",
+						"screening"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "oauth2",
+		"oauth2": [
+			{
+				"key": "tokenName",
+				"value": "Token",
+				"type": "string"
+			},
+			{
+				"key": "challengeAlgorithm",
+				"value": "S256",
+				"type": "string"
+			},
+			{
+				"key": "scope",
+				"value": "{{scope}}",
+				"type": "string"
+			},
+			{
+				"key": "grant_type",
+				"value": "client_credentials",
+				"type": "string"
+			},
+			{
+				"key": "clientSecret",
+				"value": "{{client_secret}}",
+				"type": "string"
+			},
+			{
+				"key": "clientId",
+				"value": "{{client_id}}",
+				"type": "string"
+			},
+			{
+				"key": "addTokenTo",
+				"value": "header",
+				"type": "string"
+			},
+			{
+				"key": "client_authentication",
+				"value": "header",
+				"type": "string"
+			},
+			{
+				"key": "accessTokenUrl",
+				"value": "{{oauth2_url}}",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "api_url",
+			"value": "https://sandbox-api.bisnode.com"
+		},
+		{
+			"key": "oauth2_url",
+			"value": "https://login.bisnode.com/sandbox/v1/token.oauth2"
+		},
+		{
+			"key": "client_id",
+			"value": "4a105282-d4bc-412b-a045-23f6e291920d"
+		},
+		{
+			"key": "client_secret",
+			"value": "*****************************"
+		},
+		{
+			"key": "scope",
+			"value": "b2c_aml_screen b2c_aml_ident_screen b2b_aml_ident_screen b2b_aml_screen"
+		}
+	]
+}
