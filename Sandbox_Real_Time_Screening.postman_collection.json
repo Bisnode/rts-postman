@@ -1,9 +1,9 @@
 {
 	"info": {
-		"_postman_id": "460b951d-43f4-4b47-a85d-7dbfb6a272b1",
+		"_postman_id": "710ee093-e903-41d3-b455-53002cbee469",
 		"name": "Sandbox Real Time Screening",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_exporter_id": "21455582"
+		"_exporter_id": "39653206"
 	},
 	"item": [
 		{
@@ -22,15 +22,13 @@
 					"raw": "{\r\n   \"name\":\"test_company_1\",\r\n   \"regNo\":\"5561234567\",\r\n   \"nationality\":\"SE\",\r\n   \"reference\":\"test_customer_1\"\r\n}"
 				},
 				"url": {
-					"raw": "{{api_url}}/aml-real-time-screening/api/aml/kyc/company/identify/screening",
+					"raw": "{{api_url}}/aml/v2/company/identify/screening",
 					"host": [
 						"{{api_url}}"
 					],
 					"path": [
-						"aml-real-time-screening",
-						"api",
 						"aml",
-						"kyc",
+						"v2",
 						"company",
 						"identify",
 						"screening"
@@ -55,15 +53,13 @@
 					"raw": "{ \"reference\": \"sanctions\", \"name\": \"SMAPLEBANK\" }"
 				},
 				"url": {
-					"raw": "{{api_url}}/aml-real-time-screening/api/aml/kyc/company/screening",
+					"raw": "{{api_url}}/aml/v2/company/screening",
 					"host": [
 						"{{api_url}}"
 					],
 					"path": [
-						"aml-real-time-screening",
-						"api",
 						"aml",
-						"kyc",
+						"v2",
 						"company",
 						"screening"
 					]
@@ -87,15 +83,13 @@
 					"raw": "{\t\r\n\t\"name\": \"Testperson\",\r\n\t\"natIdNo\": \"SE200303035943\",\r\n\t\"reference\": \"emil_testing_02-bisnode\"\r\n}"
 				},
 				"url": {
-					"raw": "{{api_url}}/aml-real-time-screening/api/aml/kyc/person/identify/screening",
+					"raw": "{{api_url}}/aml/v2/person/identify/screening",
 					"host": [
 						"{{api_url}}"
 					],
 					"path": [
-						"aml-real-time-screening",
-						"api",
 						"aml",
-						"kyc",
+						"v2",
 						"person",
 						"identify",
 						"screening"
@@ -120,15 +114,13 @@
 					"raw": "{\r\n\t\"firstName\": \"Donald\",\r\n\t\"lastName\": \"Kowalsky\",\r\n\t\"reference\": \"emil_testing_01\",\r\n\t\"provider\": \"TRAPETS\"\r\n}"
 				},
 				"url": {
-					"raw": "{{api_url}}/aml-real-time-screening/api/aml/kyc/person/screening",
+					"raw": "{{api_url}}/aml/v2/person/screening",
 					"host": [
 						"{{api_url}}"
 					],
 					"path": [
-						"aml-real-time-screening",
-						"api",
 						"aml",
-						"kyc",
+						"v2",
 						"person",
 						"screening"
 					]
@@ -140,6 +132,16 @@
 	"auth": {
 		"type": "oauth2",
 		"oauth2": [
+			{
+				"key": "clientSecret",
+				"value": "{{client_secret}}",
+				"type": "string"
+			},
+			{
+				"key": "clientId",
+				"value": "{{client_id}}",
+				"type": "string"
+			},
 			{
 				"key": "tokenName",
 				"value": "Token",
@@ -158,16 +160,6 @@
 			{
 				"key": "grant_type",
 				"value": "client_credentials",
-				"type": "string"
-			},
-			{
-				"key": "clientSecret",
-				"value": "{{client_secret}}",
-				"type": "string"
-			},
-			{
-				"key": "clientId",
-				"value": "{{client_id}}",
 				"type": "string"
 			},
 			{
