@@ -1,0 +1,161 @@
+{
+    "name": "Katrine Thorstensen",
+    "birthDate": "1973-11-11",
+    "nationality": "NO",
+    "regNo" : "NO11117319646",
+    "reference": "Test Screenings"
+}
+
+{
+    "name": "James Roslund",
+    "birthDate": "1957-01-13",
+    "nationality": "SE",
+    "regNo" : "SE195701136771",
+    "reference": "Test Screenings"
+}
+
+{
+	"name": "Grimlunds Mekaniska Verkstad",
+	"nationality": "SE",
+	"regNo" : "5500348822",
+	"reference": "Test Screenings"
+}
+
+{
+	"name": "Kore Clowfot",
+	"birthDate": "1988-02-04",
+	"nationality": "NO",
+	"regNo" : "NO04028892518",
+	"reference": "Test Screenings"
+}
+
+{
+	"name": "Fabian Lundholm",
+	"nationality": "SE",
+	"reference": "Test Screenings"
+}
+
+{
+	"name": "Kalle Storm",
+	"birthDate": "1985-06-01",
+	"nationality": "SE",
+	"regNo" : "SE198506010936",
+	"reference": "Test Screenings"
+}
+
+{
+	"name": "Päivi Rautavaara",
+	"birthDate": "1948-10-02",
+	"nationality": "FI",
+	"regNo" : "FI021048-214M",
+	"reference": "Test Screenings"
+}
+
+{
+	"name": "Edwin Guerrero",
+	"birthDate": "1955-04-05",
+	"nationality": "US",
+	"reference": "Test Screenings"
+}
+
+{
+	"name": "Ashley C. Rice",
+	"birthDate": "1993-07-06",
+	"nationality": "GB",
+	"reference": "Test Screenings"
+}
+
+{
+	"name": "Charles Roy Bonk",
+	"birthDate": "1978-08-10",
+	"nationality": "NL",
+	"reference": "Test Screenings"
+}
+
+{
+	"name": "Ritva Katariina Rankkala",
+	"regNo": "061282-178E",
+	"nationality": "FI",
+	"reference": "Test Screenings"
+}
+
+{
+	"name": "Birgitta Birgersson",
+	"regNo": "070874-178T",
+	"nationality": "FI",
+	"reference": "Test Screenings"
+}
+
+{
+	"name": "Lasse-Steffen Goldheim",
+	"birthDate": "1977-01-18",
+	"regNo":"NO18017749532",
+	"nationality": "NO",
+	"reference": "Test Screenings"
+}
+
+{
+	"name": "Fanny Björk",
+	"birthDate": "1966-12-04",
+
+	"reference": "Test Screenings"
+}
+
+{
+	"name": "Tone Olsen",
+	"birthDate": "1999-09-02",
+	"nationality": "NO",
+	"reference": "Test Screenings"
+}
+
+{
+	"name": "Henry Montgomery",
+	"birthDate": "1977-07-09",
+	"nationality": "US",
+	"reference": "Test Screenings"
+}
+
+{
+	"name": "Nils Nilsen",
+	"birthDate": "1986-07-07",
+	"nationality": "NO",
+	"reference": "Test Screenings"
+}
+
+{
+	"name": "Irwin Devan Elroy",
+	"nationality": "US",
+	"reference": "Test Screenings"
+}
+
+{
+	"name": "Rosalee Ellen Mandi",
+	"nationality": "US",
+	"reference": "Test Screenings"
+}
+
+{
+	"name": "Suchart Arthit Sakchai",
+	"nationality": "TH",
+	"reference": "Test Screenings"
+}
+
+{
+	"name": "Klahan Prasert Arthit",
+	"nationality": "TH",
+	"reference": "Test Screenings"
+}
+
+{
+	"name": "Svantesson, 'Gunnar' Hans Vigo",
+	"birthDate": "1984-03-15",
+	"nationality": "SE",
+	"reference": "Test Screenings"
+}
+
+{
+	"name": "Ingemar Noord",
+	"birthDate": "1969-07-07",
+	"nationality": "SE",
+	"reference": "Test Screenings"
+}
