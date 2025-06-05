@@ -1,23 +1,23 @@
 {
-    "name": "Katrine Thorstensen",
-    "birthDate": "1973-11-11",
-    "nationality": "NO",
-    "regNo" : "NO11117319646",
-    "reference": "Test Screenings"
+	"name": "Katrine Thorstensen",
+	"birthDate": "1973-11-11",
+	"nationality": "NO",
+	"natIdNo" : "NO11117319646",
+	"reference": "Test Screenings"
 }
 
 {
-    "name": "James Roslund",
-    "birthDate": "1957-01-13",
-    "nationality": "SE",
-    "regNo" : "SE195701136771",
-    "reference": "Test Screenings"
+	"name": "James Roslund",
+	"birthDate": "1957-01-13",
+	"nationality": "SE",
+	"natIdNo" : "SE195701136771",
+	"reference": "Test Screenings"
 }
 
 {
 	"name": "Grimlunds Mekaniska Verkstad",
 	"nationality": "SE",
-	"regNo" : "5500348822",
+	"natIdNo" : "5500348822",
 	"reference": "Test Screenings"
 }
 
@@ -25,7 +25,7 @@
 	"name": "Kore Clowfot",
 	"birthDate": "1988-02-04",
 	"nationality": "NO",
-	"regNo" : "NO04028892518",
+	"natIdNo" : "NO04028892518",
 	"reference": "Test Screenings"
 }
 
@@ -39,7 +39,7 @@
 	"name": "Kalle Storm",
 	"birthDate": "1985-06-01",
 	"nationality": "SE",
-	"regNo" : "SE198506010936",
+	"natIdNo" : "SE198506010936",
 	"reference": "Test Screenings"
 }
 
@@ -47,7 +47,7 @@
 	"name": "Päivi Rautavaara",
 	"birthDate": "1948-10-02",
 	"nationality": "FI",
-	"regNo" : "FI021048-214M",
+	"natIdNo" : "FI021048-214M",
 	"reference": "Test Screenings"
 }
 
@@ -74,14 +74,14 @@
 
 {
 	"name": "Ritva Katariina Rankkala",
-	"regNo": "061282-178E",
+	"natIdNo": "061282-178E",
 	"nationality": "FI",
 	"reference": "Test Screenings"
 }
 
 {
 	"name": "Birgitta Birgersson",
-	"regNo": "070874-178T",
+	"natIdNo": "070874-178T",
 	"nationality": "FI",
 	"reference": "Test Screenings"
 }
@@ -89,7 +89,7 @@
 {
 	"name": "Lasse-Steffen Goldheim",
 	"birthDate": "1977-01-18",
-	"regNo":"NO18017749532",
+	"natIdNo":"NO18017749532",
 	"nationality": "NO",
 	"reference": "Test Screenings"
 }
@@ -97,7 +97,6 @@
 {
 	"name": "Fanny Björk",
 	"birthDate": "1966-12-04",
-
 	"reference": "Test Screenings"
 }
 
@@ -157,5 +156,50 @@
 	"name": "Ingemar Noord",
 	"birthDate": "1969-07-07",
 	"nationality": "SE",
+	"reference": "Test Screenings"
+}
+
+{
+	"name": "Seweryna Pawlak",
+	"birthDate": "1979-08-02",
+	"nationality": "PL",
+	"reference": "Test Screenings"
+}
+
+{
+	"name": "Steven Madrigal",
+	"birthDate": "1968-04-18",
+	"nationality": "US",
+	"reference": "Test Screenings"
+}
+
+{
+	"name": "Yharnam Hunters OY",
+	"nationality": "FI",
+	"natIdNo":"3744105-3",
+	"reference": "Test Screenings"
+}
+
+{
+	"name": "CompAdvRelLtd-1",
+	"nationality": "GB",
+	"reference": "Test Screenings"
+}
+
+{
+	"name": "CompAdvRreLtd-1",
+	"nationality": "GB",
+	"reference": "Test Screenings"
+}
+
+{
+	"name": "San Miguel, Dionisio",
+	"birthDate": "1974-08-11",
+	"reference": "Test Screenings"
+}
+
+{
+	"name": "Tostado, Federico",
+	"birthDate": "1965-12-05",
 	"reference": "Test Screenings"
 }
